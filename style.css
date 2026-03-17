@@ -1,0 +1,13 @@
+:root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); padding: 20px; }
+.app-container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+textarea { width: 100%; height: 250px; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; resize: none; font-size: 0.9rem; }
+button { width: 100%; padding: 15px; background: var(--primary); color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 1rem; }
+button:hover { background: #1d4ed8; }
+.hidden { display: none; margin-top: 30px; }
+.score-card { text-align: center; margin-bottom: 20px; }
+.progress-bar { background: #e2e8f0; height: 10px; border-radius: 5px; overflow: hidden; margin-top: 10px; }
+#progressFill { background: var(--primary); height: 100%; width: 0%; transition: 0.5s; }
+#missingKeywords { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; list-style: none; }
+#missingKeywords li { background: #fee2e2; color: #991b1b; padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; border: 1px solid #fecaca; }
